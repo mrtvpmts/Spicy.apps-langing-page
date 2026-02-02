@@ -18,7 +18,7 @@ const techStack = [
     { name: 'Replit', logo: 'https://www.vectorlogo.zone/logos/replit/replit-ar21.svg' },
     { name: 'Lovable', logo: 'https://cdn.worldvectorlogo.com/logos/lovable.svg' },
     { name: 'Asaas', logo: 'https://vagas.asaas.com/assets/images/logo-asaas.svg' },
-    { name: 'Google AI Studio', logo: 'https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg' },
+    { name: 'Google AI Studio', logo: 'https://www.vectorlogo.zone/logos/google/google-ar21.svg' },
 ]
 
 const techStack2 = [
@@ -32,7 +32,7 @@ const techStack2 = [
     { name: 'OpenAI', logo: 'https://www.vectorlogo.zone/logos/openai/openai-ar21.svg' },
     { name: 'Claude', logo: 'https://www.vectorlogo.zone/logos/anthropic/anthropic-ar21.svg' },
     { name: 'Google', logo: 'https://www.vectorlogo.zone/logos/google/google-ar21.svg' },
-    { name: 'Gemini', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg' },
+    { name: 'Gemini', logo: 'https://www.vectorlogo.zone/logos/google_gemini/google_gemini-ar21.svg' },
     { name: 'Antigravity', logo: 'https://deepmind.google/static/images/favicons/android-chrome-192x192.png' },
     { name: 'Base', logo: 'https://www.vectorlogo.zone/logos/base/base-ar21.svg' },
     { name: 'Pagar.me', logo: 'https://vagas.pagar.me/assets/images/logo-pagarme.svg' },
