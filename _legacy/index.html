@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spicy.apps | Tecnologia que Arde</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lenis@1.0.0/dist/lenis.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Grain Texture -->
+    <div class="noise-layer"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo magnetic">
+                    <span class="logo-text">spicy</span><span class="logo-dot">.</span><span
+                        class="logo-apps">apps</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#about" class="nav-link">Sobre</a>
+                    <a href="#services" class="nav-link">Serviços</a>
+                    <a href="#portfolio" class="nav-link">Projetos</a>
+                    <a href="#contact" class="nav-link nav-cta">Contato</a>
+                    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 1️⃣ HERO SECTION -->
+        <section id="hero" class="hero">
+            <!-- Background images removed -->
+
+            <!-- Hero with Overlay Layout (Full Width) -->
+            <div class="hero-banner-wrapper">
+                <img src="assets/hero_banner.png" alt="Spicy Apps Hero" class="hero-main-bg">
+
+                <div class="hero-text-overlay">
+                    <div class="container">
+                        <!-- Inner container to keep text aligned to grid if needed, or keep absolute -->
+                        <div class="hero-text-content-wrapper">
+                            <h1 class="hero-title">
+                                TECNOLOGIA QUE <span class="text-fire">ARDE</span>.<br>
+                                SISTEMAS QUE <span class="text-white">PERFORMAM</span>.
+                            </h1>
+                            <p class="hero-subtitle">
+                                Sua visão, nossa potência. Criamos softwares premium de alto desempenho.
+                            </p>
+                            <div class="hero-actions-overlay">
+                                <button class="btn btn-lg pulse-hover">COMEÇAR PROJETO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Other content if any -->
+            </div>
+        </section>
+
+        <!-- 2️⃣ ABOUT SPICY.APPS -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-text">
+                    <h2 class="section-tag">Quem Somos</h2>
+                    <h3 class="section-title">Software sob <span class="fire-gradient">medida</span></h3>
+                    <p class="section-description">
+                        Não fazemos templates. Construímos produtos digitais, arquiteturas escaláveis e sistemas
+                        inteligentes para empresas que buscam diferenciação real no mercado. Nossa mentalidade é de
+                        produto, não só código.
+                    </p>
+                </div>
+                <div class="value-cards">
+                    <div class="value-card reveal-up">
+                        <div class="value-icon">⚡</div>
+                        <h4>Performance</h4>
+                        <p>Otimização em cada linha de código</p>
+                    </div>
+                    <div class="value-card reveal-up">
+                        <div class="value-icon">📈</div>
+                        <h4>Escalabilidade</h4>
+                        <p>Crescimento sem limites técnicos</p>
+                    </div>
+                    <div class="value-card reveal-up">
+                        <div class="value-icon">🎨</div>
+                        <h4>Design</h4>
+                        <p>Interfaces que usuários amam</p>
+                    </div>
+                    <div class="value-card reveal-up">
+                        <div class="value-icon">🧠</div>
+                        <h4>Inteligência</h4>
+                        <p>IA integrada em todo processo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3️⃣ SERVICES -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-tag">Expertise</h2>
+                <h3 class="section-title">O que <span class="fire-gradient">fazemos</span></h3>
+                <p class="section-description">Dominamos as principais tecnologias do mercado para entregar soluções
+                    completas, do mobile ao enterprise, com foco total em resultados.</p>
+
+                <div class="services-grid">
+                    <div class="service-card reveal-up magnetic" data-service="mobile">
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>Aplicativos Mobile</h4>
+                            <p>Android e iOS nativos com performance de ponta.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up magnetic" data-service="web">
+                        <div class="service-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>Sistemas Web & SaaS</h4>
+                            <p>Plataformas escaláveis e modernas.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up magnetic" data-service="automation">
+                        <div class="service-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>Automações & Integrações</h4>
+                            <p>Conectamos sistemas e processos.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up magnetic" data-service="ai">
+                        <div class="service-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>Inteligência Artificial</h4>
+                            <p>IA estratégica para seu negócio.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up magnetic" data-service="erp">
+                        <div class="service-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>ERPs & CRMs Custom</h4>
+                            <p>Gestão sob medida para sua empresa.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card reveal-up magnetic" data-service="design">
+                        <div class="service-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <div class="service-info">
+                            <h4>UI/UX Design de Produto</h4>
+                            <p>Experiências memoráveis.</p>
+                            <span class="service-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4️⃣ PROCESS -->
+        <section id="process" class="process">
+            <div class="container">
+                <h2 class="section-tag">Metodologia</h2>
+                <h3 class="section-title">Nossa <span class="fire-gradient">abordagem</span></h3>
+                <p class="section-description">Um processo validado que transforma ideias complexas em produtos digitais
+                    de alta performance, sem desperdício de tempo ou recursos.</p>
+
+                <div class="process-timeline">
+                    <div class="process-step reveal-up">
+                        <div class="step-number">01</div>
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <h4>Entendimento</h4>
+                        <p>Imersão no negócio e nas necessidades</p>
+                    </div>
+
+                    <div class="process-step reveal-up">
+                        <div class="step-number">02</div>
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <h4>Arquitetura</h4>
+                        <p>Planejamento técnico e estratégico</p>
+                    </div>
+
+                    <div class="process-step reveal-up">
+                        <div class="step-number">03</div>
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <h4>Design</h4>
+                        <p>Experiência e interface de alto nível</p>
+                    </div>
+
+                    <div class="process-step reveal-up">
+                        <div class="step-number">04</div>
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <h4>Desenvolvimento</h4>
+                        <p>Código limpo e performance máxima</p>
+                    </div>
+
+                    <div class="process-step reveal-up">
+                        <div class="step-number">05</div>
+                        <div class="step-visual">
+                            <!-- Visual placeholder -->
+                        </div>
+                        <h4>Evolução</h4>
+                        <p>Melhorias contínuas e crescimento</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5️⃣ PORTFOLIO -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-tag">Portfólio</h2>
+                <h3 class="section-title">Projetos & <span class="fire-gradient">Produtos</span></h3>
+                <p class="section-description">Conheça alguns dos desafios que superamos e as soluções inovadoras que
+                    entregamos para nossos parceiros.</p>
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-card reveal-up" data-project="izzycar">
+                        <div class="portfolio-overlay">
+                            <h4>IzzyCar</h4>
+                            <p>ERP completo para o setor automotivo</p>
+                            <span class="portfolio-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card reveal-up" data-project="midas">
+                        <div class="portfolio-overlay">
+                            <h4>Midas Technology</h4>
+                            <p>Plataforma de gestão empresarial</p>
+                            <span class="portfolio-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card reveal-up" data-project="smart">
+                        <div class="portfolio-overlay">
+                            <h4>Sistemas Inteligentes</h4>
+                            <p>Soluções personalizadas com IA</p>
+                            <span class="portfolio-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-card reveal-up" data-project="whitelabel">
+                        <div class="portfolio-overlay">
+                            <h4>Apps White-label</h4>
+                            <p>Produtos escaláveis para múltiplos clientes</p>
+                            <span class="portfolio-link">Ver detalhes →</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6️⃣ DIFFERENTIALS -->
+        <section id="differentials" class="differentials">
+            <div class="container">
+                <h2 class="section-tag">Diferenciais</h2>
+                <h3 class="section-title">Por que escolher a <span class="fire-gradient">Spicy</span></h3>
+                <p class="section-description">Não somos apenas uma fábrica de software. Somos parceiros estratégicos
+                    comprometidos com o sucesso e a escalabilidade do seu negócio.</p>
+
+                <div class="differentials-grid">
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">💎</div>
+                        <h4>Código Limpo</h4>
+                        <p>Arquitetura escalável e manutenível</p>
+                    </div>
+
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">🎯</div>
+                        <h4>Pensamento de Produto</h4>
+                        <p>Visão além do código, foco no negócio</p>
+                    </div>
+
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">🏗️</div>
+                        <h4>Arquitetura Moderna</h4>
+                        <p>Tecnologias de ponta e best practices</p>
+                    </div>
+
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">⚡</div>
+                        <h4>Alta Performance</h4>
+                        <p>Otimização em cada camada do sistema</p>
+                    </div>
+
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">🔒</div>
+                        <h4>Segurança</h4>
+                        <p>Proteção de dados e estabilidade</p>
+                    </div>
+
+                    <div class="differential-card reveal-up">
+                        <div class="diff-icon">🚀</div>
+                        <h4>Experiência Real</h4>
+                        <p>Projetos complexos já entregues</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7️⃣ TESTIMONIALS -->
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-tag">Depoimentos</h2>
+                <h3 class="section-title">O que dizem sobre nós</h3>
+                <p class="section-description">A satisfação de quem já transformou seu negócio com a tecnologia Spicy.
+                </p>
+
+                <div class="testimonials-carousel">
+                    <div class="testimonial-card reveal-up">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">A Spicy transformou nossa visão em um sistema robusto e escalável. O
+                            resultado superou todas as expectativas.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div class="author-info">
+                                <h5>Carlos Mendes</h5>
+                                <p>CEO, TechCorp</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card reveal-up">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-text">Profissionalismo e competência técnica excepcionais. O app que
+                            desenvolveram é referência no mercado.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar"></div>
+                            <div class="author-info">
+                                <h5>Ana Silva</h5>
+                                <p>CTO, Innovate Labs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8️⃣ FAQ -->
+        <section id="faq" class="faq">
+            <div class="container">
+                <h2 class="section-tag">Dúvidas</h2>
+                <h3 class="section-title">Perguntas <span class="fire-gradient">frequentes</span></h3>
+                <p class="section-description">Esclareça os principais pontos sobre como trabalhamos e como podemos
+                    ajudar sua empresa.</p>
+
+                <div class="faq-list">
+                    <div class="faq-item" data-faq="1">
+                        <div class="faq-question">
+                            <h4>Vocês trabalham com projetos sob medida?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Nossa especialidade é criar soluções personalizadas que atendem exatamente às
+                                necessidades do seu negócio. Não usamos templates genéricos.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-faq="2">
+                        <div class="faq-question">
+                            <h4>Desenvolvem apps nativos?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Desenvolvemos tanto apps nativos (Swift/Kotlin) quanto híbridos (React Native/Flutter). A
+                                escolha depende das necessidades específicas do projeto.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-faq="3">
+                        <div class="faq-question">
+                            <h4>Trabalham com sistemas grandes e complexos?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, temos experiência com ERPs, CRMs e plataformas enterprise de grande porte.
+                                Arquitetura escalável é nossa especialidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-faq="4">
+                        <div class="faq-question">
+                            <h4>É possível evoluir o projeto depois da entrega?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutamente! Entregamos com código limpo e documentado para facilitar evoluções
+                                futuras. Também oferecemos suporte contínuo.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-faq="5">
+                        <div class="faq-question">
+                            <h4>A Spicy trabalha com startups?</h4>
+                            <span class="faq-icon">+</span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Adoramos trabalhar com startups. Entendemos a dinâmica de crescimento rápido e
+                                construímos produtos pensando em escalabilidade.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9️⃣ FINAL CTA -->
+        <section id="contact" class="final-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Vamos criar algo que realmente <span class="fire-gradient">faça diferença</span>.</h2>
+                    <button class="btn btn-fire magnetic btn-cta">Entrar em Contato</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🔟 FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="footer-logo">
+                            <span class="logo-text">spicy</span><span class="logo-dot">.</span><span
+                                class="logo-apps">apps</span>
+                        </div>
+                        <p>Tecnologia que arde. Sistemas que performam.</p>
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h5>Navegação</h5>
+                            <a href="#about">Sobre</a>
+                            <a href="#services">Serviços</a>
+                            <a href="#portfolio">Projetos</a>
+                            <a href="#contact">Contato</a>
+                        </div>
+
+                        <div class="footer-column">
+                            <h5>Social</h5>
+                            <a href="#" class="social-link magnetic">LinkedIn</a>
+                            <a href="#" class="social-link magnetic">GitHub</a>
+                            <a href="#" class="social-link magnetic">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2025 spicy.apps. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Modal System -->
+    <div id="modal" class="modal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close">&times;</button>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lenis@1.0.0/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
