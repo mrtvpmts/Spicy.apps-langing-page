@@ -37,7 +37,6 @@ const techStack2 = [
     { name: 'Base', logo: 'https://www.vectorlogo.zone/logos/base/base-ar21.svg' },
     { name: 'Pagar.me', logo: 'https://vagas.pagar.me/assets/images/logo-pagarme.svg' },
 ]
-Broadway
 
 export default function Footer() {
     return (
