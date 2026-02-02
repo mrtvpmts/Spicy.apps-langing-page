@@ -7,17 +7,17 @@ const techStack = [
     { name: 'Next.js', logo: 'https://www.vectorlogo.zone/logos/nextjs/nextjs-ar21.svg' },
     { name: 'React', logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg' },
     { name: 'TypeScript', logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-ar21.svg' },
-    { name: 'Supabase', logo: 'https://avatars.githubusercontent.com/u/54469796?s=200&v=4' },
+    { name: 'Supabase', logo: 'https://www.vectorlogo.zone/logos/supabase/supabase-ar21.svg' },
     { name: 'Vercel', logo: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_2025.svg' },
     { name: 'Tailwind', logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg' },
     { name: 'Node.js', logo: 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg' },
     { name: 'PostgreSQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_classic.svg' },
     { name: 'Flutter', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.svg' },
-    { name: 'Bubble', logo: 'https://avatars.githubusercontent.com/u/18437687?s=200&v=4' },
-    { name: 'n8n', logo: 'https://avatars.githubusercontent.com/u/45487711?s=200&v=4' },
+    { name: 'Bubble', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Bubble_Logo_no_code.svg' },
+    { name: 'n8n', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8c/N8n-logo-new.svg' },
     { name: 'Replit', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/New_Replit_Logo.svg' },
-    { name: 'Lovable', logo: 'https://avatars.githubusercontent.com/u/161491746?s=200&v=4' },
-    { name: 'Asaas', logo: 'https://avatars.githubusercontent.com/u/12711100?s=200&v=4' },
+    { name: 'Lovable', logo: 'https://cdn.worldvectorlogo.com/logos/lovable.svg' },
+    { name: 'Asaas', logo: 'https://vagas.asaas.com/assets/images/logo-asaas.svg' },
     { name: 'Google AI Studio', logo: 'https://www.vectorlogo.zone/logos/google/google-ar21.svg' },
 ]
 
@@ -26,7 +26,7 @@ const techStack2 = [
     { name: 'Firebase', logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-ar21.svg' },
     { name: 'Hostinger', logo: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Hostinger_logo_black.svg' },
     { name: 'Stripe', logo: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Stripe_Logo%2C_revised_2016.svg' },
-    { name: 'Figma', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg' },
+    { name: 'Figma', logo: 'https://www.vectorlogo.zone/logos/figma/figma-ar21.svg' },
     { name: 'GitHub', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/91/GitHub_logo.svg' },
     { name: 'Docker', logo: 'https://www.vectorlogo.zone/logos/docker/docker-ar21.svg' },
     { name: 'OpenAI', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/OpenAI_logo_2025_%28wordmark%29.svg' },
@@ -34,8 +34,8 @@ const techStack2 = [
     { name: 'Google', logo: 'https://www.vectorlogo.zone/logos/google/google-ar21.svg' },
     { name: 'Gemini', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8a/Google_Gemini_logo.svg' },
     { name: 'DeepMind', logo: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Google_DeepMind_logo.svg' },
-    { name: 'Base', logo: 'https://avatars.githubusercontent.com/u/108554348?s=200&v=4' },
-    { name: 'Pagar.me', logo: 'https://avatars.githubusercontent.com/u/3173165?s=200&v=4' },
+    { name: 'Base', logo: 'https://altcoinsbox.com/wp-content/uploads/2023/03/base-logo.svg' },
+    { name: 'Pagar.me', logo: 'https://vagas.pagar.me/assets/images/logo-pagarme.svg' },
 ]
 
 export default function Footer() {
